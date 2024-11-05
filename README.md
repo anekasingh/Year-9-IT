@@ -2,5 +2,9 @@ This project's purpose is to create a simple IOT device that takes a input, a po
 
 The project was set up with a pico pi w board and a bread board. Attached to the board was one potentiometer, a green LED light, a buzzer, a button, 9 wires and 2 variable resistors. The light and the button work in the same circut and use 4 wires and both of the variable resistors. The potential meter uses 3 wires and is connected to the pico pi board and lastly the button works in a simple circut that only uses 2 wires. 
 
-The aim of this project was to recreate the simple IOT device of a doorbell. The button, buzzer and light has a purpose to emulate the basic function of doorbell, they output a sound and a visual signifier that the doorbell has been pressed when the button is held down. However, we advanced this simple concept by adding a sensor to shut off the button function. The sensor we used was a potentialmeter, when the current is less than 3.3, the button function will not work, the light and the buzzer will not go off. With this added functionaility 
-<img width="1440" alt="Screenshot 2024-11-05 at 11 37 52 am" src="https://github.com/user-attachments/assets/8ad3f048-ad6c-4d98-bf61-efdc72347169">
+The aim of this project was to recreate the simple IOT device of a doorbell. The button, buzzer and light has a purpose to emulate the basic function of doorbell, they output a sound and a visual signifier that the doorbell has been pressed when the button is held down. However, we advanced this simple concept by adding a sensor to shut off the button function. The sensor we used was a potentialmeter, when the current is less than 3.3, the button function will not work, the light and the buzzer will not go off. With this added functionaility, this allows the doorbell to disable when the sensor is triggered and allow the user to have mre control over the functionality.
+
+Overall, this project demonstrates a simple device created by a pico pi w board that emulates a real device. This simple device models the functions and abilities avaiable on a pico pi w board.
+
+
+
